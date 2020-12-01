@@ -127,6 +127,7 @@ box-sizing: border-box;
 .leftSide, .rightSide {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .section3 {
   width: 100%;
@@ -143,7 +144,20 @@ box-sizing: border-box;
 .side1 h3{
   padding: 30px;
 }
-
+.topTwoBox {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.topTwoLeft {
+  width: 50px;
+  top: 0;
+  background-color: #081B21;
+  color: white;
+  
+}
 /* Footer infomration goes heere*/
 .footerMain {
   width: 100%;
