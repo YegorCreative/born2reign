@@ -140,8 +140,8 @@ body {
 /* Footer infomration goes heere*/
 .footerMain {
   width: 100%;
-  
-  background-color: white;
+  color: white;
+  background-color: #081B21;
   border-block-start: 7px double #7d8f29;
   margin-top: 1em;
   display: flex;
@@ -155,7 +155,7 @@ body {
   padding: 1em;
   font-size: 22px;
   text-decoration: none;
-  color: black;
+  color: white;
   transition: transform 0.9s; 
 
   
