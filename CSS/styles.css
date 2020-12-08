@@ -4,8 +4,8 @@ This CSS resource incorporates links to font software which is the valuable copy
 */
 body {
     margin: 0;
-    width: 100%;
     min-width: 320px;
+    width: 100%;
     color: black;
     font-family: 'Raleway', sans-serif;
   }
