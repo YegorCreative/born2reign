@@ -129,6 +129,14 @@ box-sizing: border-box;
   justify-content: center;
   align-items: center;
 }
+.one  {
+  min-width:300px ;
+  width: 100%;
+  background-image: url("../Assets/Mattwey.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .section3 {
   width: 100%;
   height: 425px;

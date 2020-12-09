@@ -1,3 +1,9 @@
+@media only screen and (max-device-width: 1366px) {
+  .section2 {
+    background-attachment: scroll;
+    height: 300px;
+  }
+}
 @media screen and (max-width: 1220px){
   .servicesAbout {
     padding-left: 5em;
@@ -22,7 +28,7 @@
         z-index: 1;
         top: 0;
         left: 0;
-        background-color: #7FFFD4;
+        background-color: #BFBB9C;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
@@ -33,11 +39,15 @@
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         font-size: 25px;
-        color: #818181; 
+        color: #121910; 
         display: block;
         transition: 0.3s;
         font-family: "Bodoni";
       
+      }
+      .logos {
+        display: block;
+        z-index: 5;
       }
       
       .sidenav a:hover{
@@ -54,9 +64,7 @@
       .aboutLisa {
         margin-top: 40px;
       }   
-      #staging, #interior, #personal {
-        flex-flow: wrap column;
-      }    
+     
       .leftSide1, .rightSide1 {
         width: 90%;
         
